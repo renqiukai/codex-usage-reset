@@ -1,0 +1,19 @@
+# Build outputs and local tooling
+.build/
+.swiftpm/
+dist/
+*.app/
+.DS_Store
+xcuserdata/
+
+# Local credentials, logs and account history
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+*.jsonl
